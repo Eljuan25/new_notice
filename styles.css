@@ -16,7 +16,7 @@ h1 {
 
 }
 
-#news-containter{
+#news-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
