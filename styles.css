@@ -1,0 +1,52 @@
+body {
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+
+
+
+h1 {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+
+}
+
+#news-containter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.news-article {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0 , 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    text-align: left;
+}
+
+
+.news-article img {
+    width: 100%;
+    height: auto;
+}
+
+.news-article h2 {
+    font-size: 18px;
+    color: #000000;
+}
+
+
+.news-article p {
+    font-size: 14px;
+    color:#febbbb;
+}
